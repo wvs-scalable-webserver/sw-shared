@@ -27,6 +27,14 @@ public class Application {
     @Getter @Setter
     private int maximum;
 
+    @Column(name = "bundle")
+    @Getter @Setter
+    private String bundle;
+
+    @Column(name = "command")
+    @Getter @Setter
+    private String command;
+
     public Application() {
 
     }
